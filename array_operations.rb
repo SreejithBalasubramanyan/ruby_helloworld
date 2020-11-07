@@ -133,6 +133,36 @@ puts("\n")
  puts("\n")
 
 
+  # checking empty
+  puts("\n")
+  puts([1,2,3].empty?)
+   
+  # range 
+  #range are in two type inclusive and exclusive
+
+  irange= 1...8
+  puts(irange.first)
+  puts(irange.last)
+  array=[* irange]
+  puts("\n")
+print(array) #returns [1, 2, 3, 4, 5, 6, 7]
+puts("\n")
+
+# all upper case values are considerd as constant
+
+SCORE_VALUE=100
+puts(SCORE_VALUE )
+SCORE_VALUE+=SCORE_VALUE #returns array_operations.rb:155: warning: already initialized constant SCORE_VALUE
+
+
+# checking a value is nil
+puts(nil.nil?)
+r=3
+puts(r.nil?)
+r=nil
+puts(r.nil?)
+
+puts(r==nil)
 
 
 
