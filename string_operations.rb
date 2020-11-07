@@ -31,7 +31,16 @@ puts(r.class)
   
   #to know length of a string 
   puts("hi".length)
- 
+
+
+  # adding a variable inside a string
+  msg="how are you"
+  greeting_msg="hi, #{msg}. Welcome"
+  puts(greeting_msg)
+
+  greeting_msg="hi, #{msg.upcase}. Welcome"
+  puts(greeting_msg)
+  
 
 
 
