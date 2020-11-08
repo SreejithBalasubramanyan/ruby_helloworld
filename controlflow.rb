@@ -45,9 +45,15 @@ for i in 0..10
     puts("value=#{i}")
 end
 
-# for i in array
+# iterating through a loop
 
 alphabet_array=['a','b','c','d','e']
 alphabet_array.each do |i|
     puts("value=#{i}")
+end
+
+# for i in loop
+
+for i in alphabet_array
+    puts(i)
 end
