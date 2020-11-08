@@ -26,3 +26,28 @@ elsif(fruit=="mango")
 else
     puts("other")
 end
+
+# loop
+i=5
+loop do 
+    break if(i<=0)
+    puts("value:#{i}")
+    i=i-1
+end
+# while loop
+i=1
+while i<=5
+    puts("value:#{i}")
+    i=i+1
+end
+# for loop
+for i in 0..10
+    puts("value=#{i}")
+end
+
+# for i in array
+
+alphabet_array=['a','b','c','d','e']
+alphabet_array.each do |i|
+    puts("value=#{i}")
+end
